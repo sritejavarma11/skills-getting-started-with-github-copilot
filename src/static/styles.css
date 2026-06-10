@@ -108,6 +108,64 @@ button:hover {
   background-color: #3949ab;
 }
 
+.participants-section {
+  margin-top: 15px;
+  padding: 12px 14px;
+  border-radius: 5px;
+  background-color: #eef2ff;
+}
+
+.participants-section p {
+  margin-bottom: 10px;
+  color: #1a237e;
+}
+
+.participants-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.participants-list li {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  margin-bottom: 10px;
+  padding: 10px 12px;
+  background-color: #ffffff;
+  border: 1px solid #dbe2f1;
+  border-radius: 5px;
+}
+
+.participants-list li span {
+  color: #334155;
+  word-break: break-word;
+}
+
+.participant-delete-btn {
+  background: transparent;
+  border: none;
+  color: #c62828;
+  font-size: 1.1rem;
+  font-weight: bold;
+  cursor: pointer;
+  line-height: 1;
+  padding: 0 6px;
+  border-radius: 4px;
+  transition: background-color 0.15s ease;
+}
+
+.participant-delete-btn:hover {
+  background-color: rgba(198, 40, 40, 0.12);
+}
+
+.no-participants {
+  margin: 0;
+  color: #555;
+  font-style: italic;
+}
+
 .message {
   margin-top: 20px;
   padding: 10px;
